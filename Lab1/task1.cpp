@@ -12,11 +12,13 @@ int main() {
         scanf("%f %f", &vertexes[i], &vertexes[3 + i]);
     }
 
+    // Find the area of give polygon.
     float area =
           (vertexes[0] - vertexes[1]) * (vertexes[3 + 1] - vertexes[3 + 2])
         - (vertexes[1] - vertexes[2]) * (vertexes[3 + 0] - vertexes[3 + 1]);
     area = abs(area) / 2;
 
+    // If area is near zero, then polygon does not exist.
     if (area <= eps) {
         printf("Triangle does not exist");
     } else {
