@@ -6,7 +6,7 @@
 const int vsN = 4;
 const float eps = 1e-8;
 
-// vs parameter stands for distance between x and correspondig y in array.
+// vs parameter stands for distance between x and corresponding y in array.
 float areaOfTriangle(float *coords, int vs = 3) {
     
     // We do not care if triangle exists or not, zero area is good as well.
