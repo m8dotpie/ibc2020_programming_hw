@@ -4,3 +4,5 @@
     - [x] Task 1
     - [x] Task 2
     - [x] Task 3
+* Lab 2
+    - [x] Task 1
