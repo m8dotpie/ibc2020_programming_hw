@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <algorithm>
 
-const int N = 4;
+const int N = 5;
 
 int main() {
     int distances[N][N];
